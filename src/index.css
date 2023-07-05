@@ -1,0 +1,96 @@
+.drop-shadow{
+  -webkit-box-shadow: 0px 0px 33px -10px rgba(71,114,254,0.3);
+  -moz-box-shadow: 0px 0px 33px -10px rgba(71,114,254,0.3);
+  box-shadow: 0px 0px 33px -10px rgba(71,114,254,0.3);
+}
+
+body{
+  background-image: url('assets/Bckground.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+input[type = text] {
+    background-color: #fefefe;
+    height: 60px;
+    padding-left: 20px;
+ 
+}
+
+.btn-todo{
+    height: 60px!important;
+    background-color: #e9eeff!important;
+    color: #4772fe!important;
+    border: none!important;
+  
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+  font-family: "Arial";
+}
+
+.grocery-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+}
+
+.grocery-list li {
+  padding: 0.5rem;
+  border-bottom: 1px solid #cccccc;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.grocery-list li:last-child {
+  border-bottom: none;
+}
+
+.btn-add {
+  background-color: green;
+}
+
+.btn-edit {
+  background-color: rgb(245, 156, 13);
+}
+
+.btn-delete {
+  background-color: rgb(190, 38, 38);
+}
+
+.btn-clear {
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #f44336;
+  color: red;
+}
+
+.btn-clear:hover {
+  background: #f44336;
+  color: white;
+}
+
+.errors {
+  color: red;
+  font-size: 14px;
+}
+button {
+  margin-left: 1rem;
+  padding: 0.5rem 1rem;
+
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
